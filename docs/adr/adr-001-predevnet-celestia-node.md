@@ -104,7 +104,7 @@ This feature is not necessarily required for devnet (so state execution function
 
 A roadmap to implementation could look like the following:
 
-The Celestia Full Node would adhere to the ABCI interface in order to communicate with the Celestia App (similar to the way Optimint does it). The Celestia Full Node would send State requests to the Celestia App in order for the Celestia app to replay the transactions in the block and verify the state. Alternatively, Celestia Full Nodes would also be able to replay the transactions in order to verify state / generate state fraud proofs on its own.
+The Celestia Full Node would adhere to the ABCI interface in order to communicate with the Celestia App (similar to the way Optimist does it). The Celestia Full Node would send State requests to the Celestia App in order for the Celestia app to replay the transactions in the block and verify the state. Alternatively, Celestia Full Nodes would also be able to replay the transactions in order to verify state / generate state fraud proofs on its own.
 
 For devnet, it is okay to stub out state verification functionality. For example, a Celestia Full Node would download reserve transactions, but not replay them.
 
