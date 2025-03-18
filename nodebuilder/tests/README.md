@@ -19,7 +19,7 @@ The first parameter of the swarm constructor is the `testing.T`
 
 You can construct any Celestia `bridge/full/light` nodes using swamp and be rest assured that they will be linked between each other.
 <i>Note: Linking nodes does not mean that you have connected them. Linking only enables further connection between nodes.
-Think of linking as a fibre cable between 2 PCs. Connecting is the actual process from the OS level in communicating between them.</i>
+Think of linking as a fiber cable between 2 PCs. Connecting is the actual process from the OS level in communicating between them.</i>
 
 ```go
 // you can add any options during initialization in the signature
